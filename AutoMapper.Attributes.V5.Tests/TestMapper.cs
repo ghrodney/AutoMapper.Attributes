@@ -17,6 +17,7 @@ namespace AutoMapper.Attributes.V5.Tests
             });
 
             Mapper = MapperConfiguration.CreateMapper();
+            AutoMapper.Mapper.AssertConfigurationIsValid();
         }
     }
 }
